@@ -19,7 +19,7 @@ public class Main {
         int sum = 0;
         for (int i = 0; i <= n; i++) {
             sum += i;
-            System.out.println("Sum of numbers from 0 to " + i + " is: " + sum);
+            System.out.println("Gauss Summation: "  + i + " + " + sum);
         }
         return sum;
 
